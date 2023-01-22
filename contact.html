@@ -3,100 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Get in touch" content="Dont hesitate to contact us!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>complete responsive coffee shop website design</title>
 
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    
-    <link rel="stylesheet" type="text/css"  href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
+<header class="header">
 
-<body>
+    <a href="#" class="logo">
+        <img src="images/Logo.png" alt="Logo of gamehub">
+    </a>
 
-    <header>
-        <header class="header">
-
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="logo of gamehub">
-            </a>
-        
-            <nav class="navbar">
-                <a href="index.html">home</a>
-                <a href="about.html" class="current">about</a>
-                <a href="games.html">games</a>
-                <a href="contact.html">contact</a>
-                <a href="checkout.html">checkout</a>
-            
-        </nav>
-    
-        <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <a href="checkout.html">
-            <div class="fas fa-shopping-cart" id="cart-btn"></div></a>
-            <div class="fas fa-bars" id="menu-btn"></div>
-        </div>
-    
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </div>  
-
-    </header>
-
-<main>
-
-    <div class="mainbox">
-        <div class="mainboxcontent">
-            <h1>contact us</h1>
-        </div>
-    </div>
-
-    <div class="cover">
-        <div class="box1">
-            <a href="https://instagram.com">
-            <img src="images/instagram.png">
-            <h2>find us on instagram</h2>
-            </a>
-            </div>
-        <div class="box2">
-            <a href="https://twitter.com">
-            <img src="images/twitter.png">
-            <h2>follow us on twitter!</h2>
-            </a>
-            </div>
-        <div class="box3">
-            <a href="https://gmail.com">
-            <img src="images/email.png">
-            <h2>send us an mail</h2>
-            </a>
-            </div>
-        <div class="box4">
-            <img src="images/iphone.png">
-            <h2>or give us a call!</h2>
-            
-            </div>
-    </div>
-
-</main>
-
-<section class="footer">
-
-    <div class="links">
+    <nav class="navbar">
         <a href="index.html">home</a>
         <a href="about.html">about</a>
         <a href="games.html">games</a>
         <a href="contact.html">contact</a>
-        <a href="checkout.html">checkout</a>
-       
+        <a href="marketplace.html">marketplace</a>
+        <a href="checkout.html">Basket</a>
+
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+
+</header>
+<body>
+    
+
+<section class="contact" id="contact">
+
+    <h1 class="heading1"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+        
     </div>
 
 </section>
 
+<section class="footer">
 
-</body>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
 
-</html>
+    <div class="links">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="games.html">Games</a>
+        <a href="contact.html">contact</a>
+        <a href="">Marketplace</a>
+        <a href="checkout.html">Basket</a>
+    </div>
+
+
+</section>
+

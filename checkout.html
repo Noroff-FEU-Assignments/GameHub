@@ -25,10 +25,11 @@
     
         <nav class="navbar">
             <a href="index.html">home</a>
-            <a href="about.html" class="current">about</a>
+            <a href="about.html">about</a>
             <a href="games.html">games</a>
             <a href="contact.html">contact</a>
-            <a href="checkout.html">checkout</a>
+            <a href="marketplace.html">marketplace</a>
+            <a href="checkout.html">Basket</a>
         
     </nav>
 
@@ -46,7 +47,8 @@
 
     </header>
 
-    <section class="form">
+    <section class="form" id="form">
+
     
         <div class="container">
     
@@ -60,33 +62,39 @@
     
                             <div class="inputBox">
                                 <span>Full Name :</span>
-                                <input type="text" placeholder="John Smith">
+                                <input type="text" placeholder="John Smith" id="fullName">
+                                <div class="form-error" id="fullNameError">Please enter your first name</div>
                             </div>
     
                             <div class="inputBox">
                                 <span>Email :</span>
-                                <input type="email" placeholder="example@example.com">
+                                <input type="email" placeholder="example@example.com" id="email">
+                                <div class="form-error" id="emailError">Please enter email</div>
                             </div>
     
                             <div class="inputBox">
                                 <span>Address :</span>
-                                <input type="text" placeholder="123 Example Street">
+                                <input type="text" placeholder="123 Example Street" id="address">
+                                <div class="form-error" id="addressError">Please enter your street name</div>
                             </div>
     
                             <div class="inputBox">
                                 <span>City :</span>
-                                <input type="text" placeholder="London">
+                                <input type="text" placeholder="London" id="city">
+                                <div class="form-error" id="cityError">Please enter city name</div>
                             </div>
     
                             <div class="flex">
                                 <div class="inputBox">
                                     <span>Country :</span>
-                                    <input type="text" placeholder="England">
+                                    <input type="text" placeholder="England" id="country">
+                                    <div class="form-error" id="countryError">Please enter your country</div>
                                 </div>
                             
                             <div class="inputBox">
                                     <span>Zip code :</span>
-                                    <input type="text" placeholder="0123">
+                                    <input type="text" placeholder="0123" id="postCode">
+                                    <div class="form-error" id="postCodeError">Please enter your postcode</div>
                             </div>
     
                         </div>
@@ -97,31 +105,36 @@
     
                             <div class="inputBox">
                                 <span>cards accepted :</span>
-                                <img src="images/card_img.png" alt="">
+                                <img src="images/cardsaccepted.png" alt="">
                                 </div>
     
                             <div class="inputBox">
                                 <span>name on card :</span>
-                                <input type="text" placeholder="John Henry Smith">
+                                <input type="text" placeholder="John Henry Smith" id="nameOnCard">
+                                <div class="form-error" id="NameError">Please enter your name how it appears on your card</div>
                                 </div>
                             
                             <div class="inputBox">
                                 <span>credit card number :</span>
-                                <input type="number" placeholder="0000-0000-0000-0000">
+                                <input type="number" placeholder="0000-0000-0000-0000" id="cardNumber">
+                                <div class="form-error" id="cardError">Please enter your 16 digit card number</div>
                                 </div>
                             <div class="inputBox">
-                                <span>expiry Month :</span>
-                                <input type="text" placeholder="Month">
+                                <span>expiry month :</span>
+                                <input type="text" placeholder="Month" id="expiry">
+                                <div class="form-error" id="expiryMonthError">Please enter your expiry month</div>
                                 </div>
                             <div class="flex">
                                 <div class="inputBox">
                                     <span>expiry year :</span>
-                                    <input type="text" placeholder="2022">
+                                    <input type="text" placeholder="2022" id="expiryYear">
+                                    <div class="form-error" id="expiryYearError">Please enter your expiry year</div>
                                 </div>
                             
                             <div class="inputBox">
                                     <span>CVV :</span>
-                                    <input type="text" placeholder="123">
+                                    <input type="text" placeholder="123" id="cvv">
+                                    <div class="form-error" id="cvcError">Please enter your 3 digit CVC number</div>
                                 </div>
     
                             </div>
@@ -135,21 +148,26 @@
     </section>
         
 
-        <section class="footer">
+    <section class="footer">
 
-            <div class="links">
-                <a href="index.html">home</a>
-                <a href="about.html">about</a>
-                <a href="games.html">games</a>
-                <a href="contact.html">contact</a>
-                <a href="checkout.html">checkout</a>
-            </div>
-        
-        
-        
-        </section>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    
+        <div class="links">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="games.html">Games</a>
+            <a href="contact.html">contact</a>
+            <a href="">Marketplace</a>
+            <a href="checkout.html">Basket</a>
+        </div>
+    
+    
+    </section>
     
       </body>
     </html>
-
-    
