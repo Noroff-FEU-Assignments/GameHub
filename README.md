@@ -20,7 +20,7 @@ The site consists of 6 pages
 
 The webpage was Designed using Wireframes and Prototyping, using the software Adobe XD. 
 The hard coding was implemented with HTML and CSS and was performed on the software Visual Studio Code.
-Javascript is used to validate the contact form
+Javascript is used to validate the contact form.
 
 - [Wireframes/Prototype](https://www.adobe.com/no/)
 - [HTML/CSS/JS](https://code.visualstudio.com/)
@@ -34,7 +34,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-gh repo clone Marshflair1988/Community-Science-Museum
+gh repo clone Marshflair1988/Cross-Course-Project-Marshflair1988
 ```
 
 2. Install the Github Desktop application:
