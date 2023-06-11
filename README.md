@@ -1,6 +1,6 @@
 Community-Science-Museum
 
-![image](index.html)
+![image](images/Gamehub.png)
 
 Gamehub is an online selling site for buying and selling computer games.
 
@@ -18,13 +18,12 @@ The site consists of 6 pages
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 The webpage was Designed using Wireframes and Prototyping, using the software Adobe XD. 
 The hard coding was implemented with HTML and CSS and was performed on the software Visual Studio Code.
+Javascript is used to validate the contact form
 
 - [Wireframes/Prototype](https://www.adobe.com/no/)
-- [HTML/CSS](https://getbootstrap.com)
+- [HTML/CSS/JS](https://code.visualstudio.com/)
 
 ## Getting Started
 
